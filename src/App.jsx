@@ -1,12 +1,13 @@
 
 import './App.css'
+import MainLayout from './layouts/MainLayout'
 
 function App() {
 
 
   return (
     <>
-      <h1 className='text-bold text-center' >Welcome to the Client Side of the Application!</h1>
+      <MainLayout></MainLayout>
     </>
   )
 }
